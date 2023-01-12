@@ -2,6 +2,10 @@
 
 A POC for SQL files unit test, lint and so on independent of the database engine.
 
+# Hooks
+
+We use git shell hooks to make it run. The hooks are made on python, so you need python installed on your system.
+
 # Linting
 
 Based on [SQLFluff](https://docs.sqlfluff.com/), a Python tool for SQL Linting independent of anything.
